@@ -16,7 +16,6 @@ public class Choice {
         Scanner scanner = new Scanner(System.in);
         input = scanner.nextInt();
         {
-
             switch (input) {
                 case 1:
                     System.out.println("Sum of all employees salary");
@@ -26,7 +25,7 @@ public class Choice {
                     System.out.println();
                     new Choice();
                 case 3:
-                    new employeeList();
+                    new addEmployee();
                     new Choice();
                 case 4:
                     break;

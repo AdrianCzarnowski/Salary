@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class employeeList {
-    public employeeList() {
+public class addEmployee {
+    public addEmployee() {
 
         Scanner input = new Scanner(System.in);
 
