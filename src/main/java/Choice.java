@@ -19,10 +19,10 @@ public class Choice {
             switch (input) {
                 case 1:
                     System.out.println("Sum of all employees salary");
-                    System.out.println(Employee.salary);
+
                     new Choice();
                 case 2:
-                    System.out.println();
+
                     new Choice();
                 case 3:
                     new addEmployee();

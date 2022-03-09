@@ -21,6 +21,7 @@ public class addEmployee {
         String data = employee.name + " " + employee.lastName + " " + employee.salary + " $";
         employees.add(data);
         System.out.println((data) + " Added!" );
+
     }
 }
 

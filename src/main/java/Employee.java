@@ -1,24 +1,27 @@
 public class Employee {
+
     static String name;
     static String lastName;
     static int salary;
 
-    public String getName() {
+
+    private String getName() {
         return name;
     }
-    public void setName(String name) {
+
+    void setName(String name) {
         this.name = name;
     }
 
-    public String getLastName() {
+    private String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
+    void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    public int getSalary() {
+    public static int getSalary() {
         return salary;
     }
 
@@ -26,13 +29,14 @@ public class Employee {
         this.salary = salary;
     }
 
-    @Override
-    public String toString() {
+
+    public String getAllData() {
         return "Name: " + this.getName() + " last name : " + this.getLastName() +
                 ", salary: " + this.getSalary();
 
 
     }
+
 }
 
 
