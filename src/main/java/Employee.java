@@ -1,9 +1,8 @@
 public class Employee {
 
     static String name;
-    static String lastName;
+    static String surname;
     static int salary;
-
 
     private String getName() {
         return name;
@@ -13,12 +12,12 @@ public class Employee {
         this.name = name;
     }
 
-    private String getLastName() {
-        return lastName;
+    private String getSurname() {
+        return surname;
     }
 
-    void setLastName(String lastName) {
-        this.lastName = lastName;
+    void setLastName(String surname) {
+        this.surname = surname;
     }
 
     public static int getSalary() {
@@ -29,9 +28,8 @@ public class Employee {
         this.salary = salary;
     }
 
-
     public String getAllData() {
-        return "Name: " + this.getName() + " last name : " + this.getLastName() +
+        return "Name: " + this.getName() + " last name : " + this.getSurname() +
                 ", salary: " + this.getSalary();
 
 

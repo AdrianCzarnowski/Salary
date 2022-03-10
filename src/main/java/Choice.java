@@ -29,7 +29,6 @@ public class Choice {
                     new Choice();
                 case 4:
                     break;
-
                 default:
                     throw new IllegalStateException("Unexpected value: " + input);
             }
